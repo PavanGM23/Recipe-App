@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import '../App.css';
 import Recipe from './RecipeView';
 
 const RecipeContainer = () => {
 
-  const APP_ID = '672bb17c';
-  const APP_KEY = 'e9e52ca418943239824ba17bc1538d83';
+  const APP_ID = '';
+  const APP_KEY = '';
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState(''); 
